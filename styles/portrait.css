@@ -1,0 +1,6 @@
+.portrait {
+    margin: 10px auto;
+    height: 25vh;
+    /* DEBUG VARIABLES */
+    border: 0px solid rgb(255, 102, 0);
+}
