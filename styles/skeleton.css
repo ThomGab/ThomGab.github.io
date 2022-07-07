@@ -7,13 +7,6 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 550px){
-    .container {
-        width: 80%;
-    }
-}
-
-
 @media (min-width: 400px){
     .container {
         width: 85%;
@@ -39,11 +32,10 @@ body {
 
 #title {
     color: rgba(255, 255, 255, 255);
-    font-family: 'VT323', 'monospace'; /* font family */
-    font-size: 60pt; /* size of the font */
-    margin: -25px auto; /* vertical margin from top, horizontal centering (using auto) */
-    width: max-content; /* Takes up full width of screen */
-    /* DEBUG VARIABLES */
+    font-family: 'VT323', 'monospace';
+    font-size: 3em;
+    margin: auto;
+    width: max-content;
     border: 0px solid rgb(149, 255, 0);
 }
 
