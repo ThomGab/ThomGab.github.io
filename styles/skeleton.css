@@ -1,4 +1,4 @@
-﻿.container {
+﻿.page_container {
     position: relative;
     width: 100%;
     max-width: 960px;
@@ -8,9 +8,8 @@
 }
 
 @media (min-width: 400px){
-    .container {
+    .page_container {
         width: 85%;
-        padding: 0;
     }
 }
 
@@ -21,7 +20,6 @@ body {
      */
     background-color: #1d2e1f;
     background-image: repeating-radial-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2),#1c2619 102% );
-    height: 200vh;
     display: block; /* */
     /*margin: 0px;*/ /* rhs margin on the page */
     font-size: 15pt;
@@ -37,6 +35,7 @@ body {
   are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
     font-size: 62.5%;
+    display: grid;
 }
 
 body {
@@ -129,17 +128,4 @@ hr {
     margin-bottom: 3.5rem;
     border-width: 0;
     border-top: 1px solid #E1E1E1;
-}
-
-
-/* Clearing
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Self Clearing Goodness */
-.container:after,
-.row:after,
-.u-cf {
-    content: "";
-    display: table;
-    clear: both;
 }
